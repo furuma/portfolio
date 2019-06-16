@@ -3,7 +3,14 @@
 <head>
   <meta charset="utf-8">
   <title>FURUMA Illustration</title>
-  <link rel="stylesheet" href="css/stylesheet.css">
+
+  <!-- スマホサイズ -->
+    <link rel="stylesheet" href="css/stylesheet-phone.css" media="screen and (max-width: 799px)">
+  <!-- タブレットサイズ -->
+    <link rel="stylesheet" href="css/stylesheet-tablet.css" media="screen and (min-width: 800px) and (max-width: 1199px)">
+  <!-- PCサイズ -->
+    <link rel="stylesheet" href="css/stylesheet-pc.css" media="screen and (min-width: 1200px)">
+
 
   <!-- FUNBOX3 -->
   	<link rel="stylesheet" type="text/css" href="dist/jquery.fancybox.css">
@@ -14,25 +21,26 @@
 
 </head>
 <body>
+
   <header>
     <div class="header-container">
       <a href="#" class="header-left">FURUMA Illustration</a>
-      <div class="header-right">
-        <ul>
-          <li><a href="#NEWS">NEWS</a></li>
-          <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
-          <li><a href="#ABOUT">ABOUT</a></li>
-          <li><a href="#CONTACT">CONTACT</a></li>
-        </ul>
-      </div>
+        <div class="header-right" media="screen and (min-width: 800px)">
+          <ul>
+            <li><a href="#NEWS">NEWS</a></li>
+            <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+            <li><a href="#ABOUT">ABOUT</a></li>
+            <li><a href="#CONTACT">CONTACT</a></li>
+          </ul>
+        </div>
     </div>
   </header>
 
+
+
 <div class="contents">
     <div class="container">
-      <div class="main-img">
-        <img src="" alt="メインイラスト">
-      </div>
+      <div class="main-img"></div>
     </div>
 
   <div class="news-wrapper" id="NEWS">
